@@ -1,0 +1,25 @@
+# Byte-compiled / build
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtualenv
+venv/
+.env/
+
+# Data files
+data/*.csv
+data/*.parquet
+
+# Model artifacts
+models/*.pkl
+models/*.joblib
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Config locais
+config/*.local.yaml
